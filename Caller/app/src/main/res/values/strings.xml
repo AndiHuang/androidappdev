@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="email">Enter Your Gmail</string>
+    <string name="password">Password</string>
+    <string name="button_send">Go</string>
+    <string name="action_settings">Settings</string>
+</resources>
