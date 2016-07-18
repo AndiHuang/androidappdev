@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+    <RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/green"
+    android:id="@+id/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Not detecting"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewDetectState"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        android:inputType="phone"
+        android:id="@+id/phonenumfield"
+        android:background="#ffffff"
+        android:layout_above="@+id/buttonDetectToggle"
+        android:hint="@string/phonenum" />
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Validate"
+        android:id="@+id/buttonDetectToggle"/>
+
+
+
+
+</RelativeLayout>

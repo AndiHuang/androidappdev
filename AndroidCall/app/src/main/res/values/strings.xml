@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Call Validator</string>
+    <string name="phonenum">Phone number</string>
+</resources>
